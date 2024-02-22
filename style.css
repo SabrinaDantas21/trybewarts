@@ -1,9 +1,25 @@
-
 body {
-background-color:mediumaquamarine;
+  background-color: mediumaquamarine;
 }
 
 .header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.email , .password {
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+}
+
+.btn-entrar {
+  height: 52px;
+  width: 100px;
+  margin: 10px;
 }

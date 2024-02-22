@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet"/>
 </head>
+
 <body>
     <header class="header">
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form class="trybewarts-login">
+            <label name="email"></label>
+            <input class="email" type="email" name="email" placeholder="Email" required>
+
+            <label name="password"></label>
+            <input type="password" class="password" name="password" placeholder="Senha" required>
+
+            <button type="submit" class="btn-entrar">Entrar</button>
+        </form>
+        
     </header>
 
-    
+
 </body>
+<script src="script.js"></script>
+
 </html>
