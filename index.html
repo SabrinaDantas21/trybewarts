@@ -25,33 +25,52 @@
     </header>
     <main class="main">
         <form id="evaluation-form">
-            
-        <div id="nome">
-            <input type="text" id="input-name" placeholder="Nome">
-            <input type="text" id="input-lastname" placeholder="Sobrenome">
-        </div>
-        <div id="escolhas">
-            <input type="email" id="input-email" placeholder="Email">
-            <select id="house">
-                <option id="gitnoria-house">Gitnória</option>
-                <option id="reactpuff-house">Reactpuff</option>
-                <option id="corvinode-house">Corvinode</option>
-                <option id="pytherina-house">Pytherina</option>
-            </select>
-        </div>
-        <label name="family" id="label-family">Qual sua família?</label>
-        <input type="radio" value="Frontend" name="family">
-        <input type="radio" value="Backend" name="family">
-        <input type="radio" value="FullStack" name="family">
 
-        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-        <input type="checkbox" class="subject" value="Comunicação">
-        <input type="checkbox" class="subject" value="Trabalho em equipe">
-        <input type="checkbox" class="subject" value="Negociação">
-        <input type="checkbox" class="subject" value="Escuta ativa">
-        <input type="checkbox" class="subject" value="Métodos de array">
-        <input type="checkbox" class="subject" value="Jest">
+            <div id="nome">
+                <input type="text" id="input-name" placeholder="Nome">
+                <input type="text" id="input-lastname" placeholder="Sobrenome">
+            </div>
+            <div id="escolhas">
+                <input type="email" id="input-email" placeholder="Email">
+                <select id="house">
+                    <option id="gitnoria-house">Gitnória</option>
+                    <option id="reactpuff-house">Reactpuff</option>
+                    <option id="corvinode-house">Corvinode</option>
+                    <option id="pytherina-house">Pytherina</option>
+                </select>
+            </div>
+            <label name="family" id="label-family">Qual sua família?</label>
+            <input type="radio" value="Frontend" name="family">
+            <input type="radio" value="Backend" name="family">
+            <input type="radio" value="FullStack" name="family">
 
+            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <input type="checkbox" class="subject" value="Comunicação">
+            <input type="checkbox" class="subject" value="Trabalho em equipe">
+            <input type="checkbox" class="subject" value="Negociação">
+            <input type="checkbox" class="subject" value="Escuta ativa">
+            <input type="checkbox" class="subject" value="Métodos de array">
+            <input type="checkbox" class="subject" value="Jest">
+
+            <label id="label-rate" name="rate">Como você avalia a Trybewarts?</label>
+            <input name="rate" type="radio" class="avaliacao" value="1">
+            <input name="rate" type="radio" class="avaliacao" value="2">
+            <input name="rate" type="radio" class="avaliacao" value="3">
+            <input name="rate" type="radio" class="avaliacao" value="4">
+            <input name="rate" type="radio" class="avaliacao" value="5">
+            <input name="rate" type="radio" class="avaliacao" value="6">
+            <input name="rate" type="radio" class="avaliacao" value="7">
+            <input name="rate" type="radio" class="avaliacao" value="8">
+            <input name="rate" type="radio" class="avaliacao" value="9">
+            <input name="rate" type="radio" class="avaliacao" value="10">
+
+            <label class="textarea">Descreva os principais pontos de
+                aprendizado até aqui (1 hard skill / 1 soft skill):
+            </label>
+            <textarea id="textarea" maxlength="500" minlength="20">Aprendi a usar muito bem o html, também aprendi a me comunicar melhor!
+            </textarea>
+            <label id="label-infos">Você concorda com o uso das informações acima?</label>
+            <input type="checkbox" id="agreement">
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
     </main>
