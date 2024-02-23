@@ -37,3 +37,8 @@ body {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#nome {
+  display: flex;
+  flex-direction: row;
+}
