@@ -9,3 +9,12 @@ document.querySelector('.trybewarts-login').addEventListener('submit', (event) =
   }
   alert('Email ou senha inválidos.');
 });
+
+const checkbox = document.getElementById('agreement');
+const button = document.getElementById('submit-btn');
+
+button.disabled = true;
+
+checkbox.addEventListener('change', function onCheckbox() {
+  button.disabled = !this.checked;
+});
